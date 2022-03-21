@@ -1,12 +1,12 @@
-@extends('users.layout')
+@extends('template.layout')
    
 @section('content')
     <div class="row">
-        <div class="col-lg-12 margin-tb">
-            <div class="pull-left">
+        <div class="col-lg-12 mt-3 mb-3">
+            <div class="text-left">
                 <h2>Edit User</h2>
             </div>
-            <div class="pull-right">
+            <div class="text-right">
                 <a class="btn btn-primary" href="{{ route('users.index') }}"> Back</a>
             </div>
         </div>

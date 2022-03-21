@@ -1,12 +1,12 @@
-@extends('users.layout')
+@extends('template.layout')
   
 @section('content')
 <div class="row">
-    <div class="col-lg-12 margin-tb">
-        <div class="pull-left">
+    <div class="col-lg-12 mt-3 mb-3">
+        <div class="text-left">
             <h2>Add New User</h2>
         </div>
-        <div class="pull-right">
+        <div class="Text-right">
             <a class="btn btn-primary" href="{{ route('users.index') }}"> Back</a>
         </div>
     </div>
@@ -45,7 +45,7 @@
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 text-center">
-                <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary">Submit</button>
         </div>
     </div>
    

@@ -1,12 +1,12 @@
-@extends('users.layout')
+@extends('template.layout')
  
 @section('content')
-    <div class="row" style="margin-top: 5rem;">
-        <div class="col-lg-12 margin-tb">
-            <div class="pull-left">
+    <div class="row">
+        <div class="col-lg-12 mt-3 mb-3">
+            <div class="text-left">
                 <h2>Laravel 8 CRUD - Management User</h2>
             </div>
-            <div class="pull-right">
+            <div class="text-right">
                 <a class="btn btn-success" href="{{ route('users.create') }}"> Create New Users</a>
             </div>
         </div>
@@ -18,7 +18,7 @@
         </div>
     @endif
    
-    <table class="table table-bordered">
+    <table class="table table-striped">
         <tr>
             <th>No</th>
             <th>Name</th>
